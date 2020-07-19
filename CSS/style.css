@@ -1,0 +1,88 @@
+body {
+    padding: 2rem; 
+    font-family: "cursive", sans-serif;
+    background-color: #BF9F8C; 
+   
+}
+.customheader {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+}
+.background-lemur {
+    background-image: url('../Bilder/lemur.jpg');
+
+}
+
+.background-vogel {
+    background-image: url('../Bilder/vogel.jpg'); 
+    background-position: top; 
+}
+Input [type =“text“] {
+    Background-color: transparent; 
+   }
+   
+article {
+    width: auto;
+}
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.box2 {
+    float:right; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+main {
+    display: block; 
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none; 
+    width: 50px; 
+    text-align: center; 
+}
+nav a{
+    color: black;
+    text-decoration: none; 
+    display: block;
+    padding: 2rem; 
+    font-size: 20px;
+}
+
+.Titel {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+Table {
+    border: thin solid black; 
+    border-collapse: separate;
+    border-spacing: 2px; 
+    table-layout: auto;
+    max-width: 100%;
+}
+
+footer {
+padding: 1rem; 
+margin-top: 1rem;
+
+}
